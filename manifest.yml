@@ -1,0 +1,12 @@
+---
+applications:
+  - name: shackcontrol
+    instances: 1
+    memory: 512M
+    path: target/server-1.0.jar
+    buildpack: java_buildpack
+env:
+ # SAP_JWT_TRUST_ACL: '[{"clientid" : "*", "identityzone" : "*"}]'
+ # spring.profiles.active: dev-cf, metrics
+  JAVA_OPTS: -Xss256K
+

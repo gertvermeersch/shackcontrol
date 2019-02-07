@@ -1,0 +1,9 @@
+logging.level.org.springframework.security: DEBUG
+logging.level.org.springframework.web.socket: DEBUG
+server.port: 1080
+server:
+  ssl:
+    enabled: false
+shackcontrol:
+  user: api
+  password: vjr434DRElor43%#d
